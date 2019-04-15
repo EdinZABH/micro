@@ -1,7 +1,5 @@
 #!/bin/bash
 # Basic for loop
-env 'spring-boot-app_arg=--link postgres:postgres --link node:node -p 8080:8080'
-arg='spring-boot-app_arg'
 services='postgres node-app spring-boot-app'
 for service in $services
 do
