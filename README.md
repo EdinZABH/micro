@@ -1,7 +1,6 @@
-# Simple Microservices Project
+#Simple microservies
 
-## Description
+This is contererized version of original app. Run "starta.sh" startup script to orchestrate build and run od docker containers.
 
-The project consists of two simple services:
- - spring-boot-app - Java application with SpringBoot
- - node-app - Node.js application with Express
+Spring app is reachable on port 8080
+
